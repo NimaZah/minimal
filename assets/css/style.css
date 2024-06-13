@@ -28,15 +28,15 @@ header nav ul li a {
   text-decoration: none;
 }
 
-.main-content, .sidebar {
-  padding: 2rem;
-  max-width: 800px;
-  margin: 0 auto;
-}
-
 .content-wrapper {
   display: flex;
   justify-content: space-between;
+}
+
+.main-content {
+  padding: 2rem;
+  max-width: 800px;
+  margin: 0 auto;
 }
 
 .sidebar {

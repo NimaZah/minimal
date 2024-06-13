@@ -8,15 +8,13 @@
 </head>
 <body>
   {% include header.html %}
-  <main>
-    <div class="content-wrapper">
-      <div class="main-content">
-        {{ content }}
-      </div>
-      <aside class="sidebar">
-        {% include sidebar.html %}
-      </aside>
-    </div>
-  </main>
+  <div class="content-wrapper">
+    <main class="main-content">
+      {{ content }}
+    </main>
+    <aside class="sidebar">
+      {% include sidebar.html %}
+    </aside>
+  </div>
 </body>
 </html>
