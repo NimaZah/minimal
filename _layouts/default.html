@@ -9,10 +9,14 @@
 <body>
   {% include header.html %}
   <main>
-    {{ content }}
+    <div class="content-wrapper">
+      <div class="main-content">
+        {{ content }}
+      </div>
+      <aside class="sidebar">
+        {% include sidebar.html %}
+      </aside>
+    </div>
   </main>
-  <aside>
-    {% include sidebar.html %}
-  </aside>
 </body>
 </html>
