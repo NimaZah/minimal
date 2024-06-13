@@ -1,9 +1,10 @@
-title: "Resume of Bruises"
+title: "Your Blog Title"
 description: "Description of your blog"
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://yourusername.github.io" # the base hostname & protocol for your site
 
-theme: minima
+# Remove or comment out the theme
+# theme: minima
 
 plugins:
   - jekyll-feed
